@@ -205,9 +205,13 @@ ul {
   justify-content: space-between;
   opacity: 0;
   pointer-events: none;
-  visibility: hidden;
+  
 }
 
+.mob-menu.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
 
 .mob-page-header-link {
 margin-bottom: 40px;
