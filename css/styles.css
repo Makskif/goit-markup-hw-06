@@ -848,6 +848,14 @@ button:focus .modal-close-svg {
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
+
+.modal-checkbox-input:focus + .modal-checkbox-label span {
+    border: 1px solid #4d5ae5;
+}
+
+
+
+
 .modal-button {
   display: block;
   min-width: 169px;
@@ -1121,7 +1129,7 @@ align-self: center;
   font-size: 16px;
   line-height: 1.5;
  
-  margin-bottom: 8px;
+  
 }
 
 .team {
